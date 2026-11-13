@@ -1,0 +1,111 @@
+{
+  "columns": [
+    "Age",
+    "Sex",
+    "Chest pain type",
+    "BP",
+    "Cholesterol",
+    "FBS over 120",
+    "EKG results",
+    "Max HR",
+    "Exercise angina",
+    "ST depression",
+    "Slope of ST",
+    "Number of vessels fluro",
+    "Thallium"
+  ],
+  "numeric": {
+    "Age": {
+      "min": 29.0,
+      "max": 77.0,
+      "median": 54.0
+    },
+    "BP": {
+      "min": 94.0,
+      "max": 200.0,
+      "median": 130.0
+    },
+    "Cholesterol": {
+      "min": 126.0,
+      "max": 564.0,
+      "median": 243.0
+    },
+    "Max HR": {
+      "min": 71.0,
+      "max": 202.0,
+      "median": 157.0
+    },
+    "ST depression": {
+      "min": 0.0,
+      "max": 6.2,
+      "median": 0.1
+    }
+  },
+  "categorical": {
+    "Sex": {
+      "values": [
+        0,
+        1
+      ],
+      "mode": 1.0
+    },
+    "Chest pain type": {
+      "values": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "mode": 4.0
+    },
+    "FBS over 120": {
+      "values": [
+        0,
+        1
+      ],
+      "mode": 0.0
+    },
+    "EKG results": {
+      "values": [
+        0,
+        1,
+        2
+      ],
+      "mode": 0.0
+    },
+    "Exercise angina": {
+      "values": [
+        0,
+        1
+      ],
+      "mode": 0.0
+    },
+    "Slope of ST": {
+      "values": [
+        1,
+        2,
+        3
+      ],
+      "mode": 1.0
+    },
+    "Number of vessels fluro": {
+      "values": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mode": 0.0
+    },
+    "Thallium": {
+      "values": [
+        3,
+        6,
+        7
+      ],
+      "mode": 3.0
+    }
+  },
+  "best_model": "Logistic Regression (L1)",
+  "sklearn_version": "1.6.1"
+}
